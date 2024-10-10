@@ -30,18 +30,3 @@ forge build
 forge test
 ```
 
-<br>
-
-&nbsp;
-
-***
-
-## 【Demo】
-- Demo video of unit test  
-  https://youtu.be/pr0gk1njwHk
-
-<br>
-
-&nbsp;
-
-***
