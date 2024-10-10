@@ -1,66 +1,47 @@
-## Foundry
+# 【GovernorAlpha】
+## 【Introduction of the GovernorAlpha 】
+- The smart contract encourages members of the DAO to vote in order to receive rewards and own community NFTs 
+- They must own an NFT to participate in voting.
+- Once the voting is complete, users will receive back the governance tokens of the DAO.
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+## 【Remarks】
+- Versions:
+  - Solidity (Solc): v0.8.0
+  - Foundry: v2.6.1
 
-Foundry consists of:
+&nbsp;
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+***
 
-## Documentation
-
-https://book.getfoundry.sh/
-
-## Usage
-
-### Build
-
-```shell
-$ forge build
+### ② Compile contracts
+```
+forge build
 ```
 
-### Test
+<br>
 
-```shell
-$ forge test
+&nbsp;
+
+***
+
+## 【Unit test】
+- Scenario test
+```
+forge test
 ```
 
-### Format
+<br>
 
-```shell
-$ forge fmt
-```
+&nbsp;
 
-### Gas Snapshots
+***
 
-```shell
-$ forge snapshot
-```
+## 【Demo】
+- Demo video of unit test  
+  https://youtu.be/pr0gk1njwHk
 
-### Anvil
+<br>
 
-```shell
-$ anvil
-```
+&nbsp;
 
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+***
